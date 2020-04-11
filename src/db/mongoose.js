@@ -1,3 +1,3 @@
 const mongoose=require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/Portfolio-api',{useUnifiedTopology:true,useCreateIndex:true,useFindAndModify:false})
+mongoose.connect('mongodb+srv://portfolio-database:Sharad@185@cluster0-io0e3.mongodb.net/test?retryWrites=true&w=majority',{useUnifiedTopology:true,useCreateIndex:true,useFindAndModify:false})
  

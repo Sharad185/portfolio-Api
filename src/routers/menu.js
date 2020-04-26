@@ -16,7 +16,7 @@ res.status(400).send(e);
 }
 
 })
-router.get('menu',async(rq,res)=>{
+router.get('/menu',async(rq,res)=>{
 
     try{
       const menu=await Menu.find({});
